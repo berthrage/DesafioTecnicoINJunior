@@ -1,2 +1,2 @@
-# DesafioTecnicoINunior
-Arquivos para o Desafio Técnico do Processo Seletivo 2025.1 da INJunior 
+# Desafio Técnico INJunior 2025.1
+Decidi fazer todos os 13 exercícios por um design mais "webapp" ao invés de CLI para me desafiar um pouco em relação às minhas habilidades de JS e UI/UX. Executar os códigos via cada arquivo html.
