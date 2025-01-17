@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex. 13 - Gerenciamento de Jogadores - Leandro Bertholdo</title>
+</head>
+<body>
+    <h1>EX13 - GERENCIAMENTO DE JOGADORES</h1>
+    <p>Desafio Técnico INJunior 2025.1</p>
+    <p>Autor: Leandro Bertholdo</p>
+    <p>Checar console.</p>
+    <span id="spanTitlePlayers">JOGADORES CADASTRADOS: </span><br>
+    <span id="spanPlayers"></span><br><br>
+    
+    <button id="buttonAddPlayer" onclick="NewPlayer()">Adicionar Jogador</button>
+    <span id="spanNewPlayerDetails">
+        <br>Nome: <input type="text" id="valuePlayerName" placeholder="Digite o nome aqui"><br>
+        Idade: <input type="number" id="valuePlayerAge" placeholder="Digite a idade aqui"><br>
+        Posição: <input type="text" id="valuePlayerPosition" placeholder="Digite a posição aqui"><br>
+        Pontuação: <input type="number" id="valuePlayerScore" placeholder="Digite a pontuação aqui"><br>
+    </span>
+    <button id="buttonSavePlayer" onclick="SaveNewPlayer()">Salvar Jogador</button><br>
+
+    <button id="buttonSearchPosition" onclick="SearchPosition()">Buscar por Posição</button><input type="text" id="searchPositionInput" placeholder="Digite a posição"><br>
+    <button id="buttonListPlayers" onclick="ListPlayers()">Listar Time</button><br>
+    <button id="buttonCalculateAverageScore" onclick="CalculateAverageScore()">Calcular Pontuação Média</button><br>
+    <button id="buttonExit" onclick="ExitProgram()">Sair</button>
+
+
+    <script src="ex13_gerenciamentojogadores.js"></script>
+</body>
+</html>
